@@ -19,6 +19,10 @@ Professor: Ricardo Ayala
 
 This project focuses on the design of an accessory drive gearbox for a commercial aircraft, mounted below the jet engine compressor case. The gearbox drives essential components such as the engine fuel pump, oil pump, hydraulic pump, and electrical generator. It is powered by a drive shaft connected to the engine compressor spool through a compressor power transfer shaft.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b26b0191-8ab4-47c9-9a70-0216172b74a7" alt="Gearbox Installation" width="700">
+</p>
+
 Key considerations for the design include:
 - Packaging constraints and weight limitations (maximum weight: 260 lbf).
 - Durability under moderate shock loading.
@@ -71,15 +75,31 @@ The accessory gearbox must satisfy the following criteria:
 The project involved comprehensive analysis using:
 - **Gear Analysis**:
   - Calculated bending and contact stresses using AGMA standards.
-  - Safety factors for gears: 1.3 (bending) and 1.15 (contact).
+  - Safety factors for gears: 1.15-1.10 (Yield Design Factor) | 1.3 (bending) | 1.15 (contact).
+ 
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/378909df-4d8d-4493-8de3-39c3f079a077" alt="Final Results" width="500">
+    </p>
 
 - **Shaft Analysis**:
   - Determined shaft diameters based on Von Mises stress and DE-Goodman fatigue criteria.
   - Constructed S-N curves to verify fatigue resistance.
-
+ 
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/6d12c79b-3872-47d8-a5af-894139b27ca0" alt="SN Curve" width="500">
+    </p>
+ 
 - **Software Tools**:
   - SolidWorks for component layout and design.
   - Excel and MATLAB for detailed calculations.
+ 
+    <p align="center">
+      <img src="https://github.com/user-attachments/assets/c1775a38-80fd-4e0b-b25d-04f034cc5841" alt="SolidWorks Layout" width="500">
+    </p>
+
+- **Tables and Calculations**:
+  - All tables and hand calculations can be referred to in the report attached to this repository.
+  - The Master spreadsheet was used to create iterations of different constraints implemented into the geartrain, which can be found in this repository. 
 
 ---
 
